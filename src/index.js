@@ -11,7 +11,8 @@ const YOUTUBE_API_KEY = "AIzaSyCDWLGbQWn_yabIQKPXKTQFyjy7GBoBIEs";
 // > populate the DOM with the given snippet
 const App = () => {
     return (
-        <div>
+        <div id="search_bar">
+            <p>> Search:</p>
             <SearchBar />
         </div>);
 }
